@@ -16,10 +16,12 @@
 
 int main () {
     running = true;
-    printf("--- The Handy Calculator ---\nV 1.0\nAuthor: Gabriel Hugi\nFunctions:\n - Basic math operations\n - Analysis and breakdown of expresions\n\n---------------------\n\n");
+    short int topic = 0;
+    short int operation = 0;
+    printf("--- The Handy Calculator ---\nV 1.0\nAuthor: Gabriel Hugi\n");
     while(running) {
-        askForInput();
-        printfTextLinesWithDelay("skibid or not;tu skibidornot;eskebedi", 400);
+        printfTextLinesWithDelay("Choose math topic or calculator mode;1 - Basic", 400);
+        scanf("%hd", &topic);
     }
     return 0;
 }
