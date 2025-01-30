@@ -25,7 +25,7 @@ void removefgetsnewline (char *_str) {
 // separate lines with ";"
 void printfTextLinesWithDelay (char *_line, int _delayTime) {
     int countOf = 0;
-    for (int i = 0; i < strlen(_line); i++) {
+    for (size_t i = 0; i < strlen(_line); i++) {
         if (_line[i] == ';') countOf++;
     }
     char  _lines[countOf+1][100];
