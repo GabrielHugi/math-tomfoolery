@@ -24,7 +24,6 @@ int generateXRandomAddUpToY(size_t ammountOfNumbers, size_t addsUpTo, size_t *is
     for (size_t i = 0; i < ammountOfNumbers; i++) {
         numbers[i] = rand() % (addsUpTo+1);
     }
-    //size_t average = addsUpTo/ammountOfNumbers;
     size_t sumup = 0;
     for (size_t i = 0; i < ammountOfNumbers; i++) {
         sumup += numbers[i];
@@ -39,7 +38,6 @@ int generateXRandomAddUpToY(size_t ammountOfNumbers, size_t addsUpTo, size_t *is
             }
         }
     }
-    // aint working
     if (over >= 1) {
         size_t overflow = sumup - addsUpTo;
         short int easyWayOut = 0;

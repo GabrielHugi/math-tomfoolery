@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <stdbool.h>
 #include "logic/logic.c"
 #include "logic/math-operations.c"
@@ -21,27 +22,41 @@ int main () {
     short int operation = 0;
     printf("--- Math Tomfoolery ---\nV 1.0\nAuthor: Gabriel Hugi\n");
     //while(running) {
-    long long int wrongs = 0;
-    for (int i = 0; i < 1000000; i++) {
-        //printfTextLinesWithDelay("Choose math topic or calculator mode;1 - Basic", 400);
-        //scanf("%hd%*c", &topic);
-        //while ((getchar()) != '\n');
-        size_t bullshit[400];
-        generateXRandomAddUpToY(3, 600, *&bullshit);
-        long long int bigboy = 0;
-        for (size_t i = 0; i < 3; i++) {
-            bigboy += bullshit[i];
-        }
-        if (bigboy != 600) {
-            wrongs++;
-        }
-        printf("\nseparation\n");
-        for (int i = 0; i < 3; i++) {
-            printf("%ld\n", bullshit[i]);
-        }
-        printf("%lld\n", bigboy);
-        if (i == 999999) {
-            printf("\n\nErrors = %lld", wrongs);
+    while (running) {
+        printfTextLinesWithDelay("Choose the math topic;1 - Random number generators", 200);
+        scanf("%hd", &topic);
+        while (getchar() != '\n') {};
+        // I hate switch statements but I was told its good or something idk
+        if (topic == 1) {
+            printfTextLinesWithDelay("Choose the operation;1 - generate x random positive integer numbers that will add up to y", 200);
+            scanf("%hd", &operation);
+            while (getchar() != '\n') {};
+            if (operation == 1) {
+                for (int i = 0; i != -1;) {
+                    size_t x; size_t y;
+                    printf("Insert X\n");
+                    scanf("%ld", &x);
+                    while (getchar() != '\n') {};
+                    printf("Insert Y\n");
+                    scanf("%ld", &y);
+                    while (getchar() != '\n') {};
+                    size_t storage[x];
+                    generateXRandomAddUpToY(x, y, *&storage);
+                    printf("Results:\n");
+                    for (size_t i = 0; i < x; i++) {
+                        printf("------\n");
+                        printf("%ld\n", storage[i]);
+                    }
+                    printf("------\n");
+                    printf("Insert R to redo, insert anything else to go back to main menu\n");
+                    char op;
+                    scanf("%c", &op);
+                    while (getchar() != '\n') {};
+                    if (op != 'R' && op != 'r') {
+                        i = -1;
+                    }
+                }
+            }
         }
     }
     return 0;
