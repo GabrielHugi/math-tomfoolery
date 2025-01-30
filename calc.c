@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
-#include "logic/logic.c"
-#include "logic/math-operations.c"
+#include "references/math-operations.h"
 #include "references/logic.h"
 #include "references/global.h"
 #ifdef __linux__
