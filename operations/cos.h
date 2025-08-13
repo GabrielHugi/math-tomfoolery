@@ -1,0 +1,1 @@
+double cos(double x);

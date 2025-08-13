@@ -1,0 +1,1 @@
+double abs(double x);

@@ -51,6 +51,7 @@ void printfTextLinesWithDelay (char *_line, int _delayTime) {
 }
 
 void askForInput () {
+    // this i didn't implement yet btw 
     char input[1000];
     printf("Please input your mathematical equation.\nInput %chelp%c for instructions on how to properly give your input. Input %cexit%c for instructions on how to properly give your input. \n", 34, 34, 34, 34);
     fgets(input, 1000, stdin);

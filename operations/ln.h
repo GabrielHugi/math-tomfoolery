@@ -1,0 +1,1 @@
+double ln(double x);

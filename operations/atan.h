@@ -1,0 +1,1 @@
+double atan(double x);
