@@ -8,6 +8,8 @@
     Example: y = 300; Output: 56, 244, 300
     Extra: give a range from x to y that the generated numbers must match;
     01/27/2025
+
+    bro wtf this aint working
 */
 
 int generateXRandomAddUpToY(size_t ammountOfNumbers, size_t addsUpTo, size_t *isStoredAt) {
@@ -29,6 +31,7 @@ int generateXRandomAddUpToY(size_t ammountOfNumbers, size_t addsUpTo, size_t *is
         sumup += numbers[i];
     }
     size_t over = sumup / addsUpTo;
+    // smaller
     if (over == 0) {
         long double remaining = addsUpTo - sumup;
         for (size_t i = 0; i < ammountOfNumbers; i++) {

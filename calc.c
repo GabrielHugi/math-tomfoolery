@@ -26,10 +26,16 @@ int main () {
         scanf("%hd", &topic);
         while (getchar() != '\n') {};
         // I hate switch statements but I was told its good or something idk
+
+
+        // RNG ------------------
         if (topic == 1) {
             printfTextLinesWithDelay("Choose the operation;1 - generate x random positive integer numbers that will add up to y", 200);
             scanf("%hd", &operation);
             while (getchar() != '\n') {};
+
+
+            // x positive ints that add up to y ----------
             if (operation == 1) {
                 for (int i = 0; i != -1;) {
                     size_t x; size_t y;
@@ -56,7 +62,11 @@ int main () {
                     }
                 }
             }
+
+
+
         }
+        // end of topic
     }
     return 0;
 }
