@@ -11,4 +11,4 @@
     01/27/2025
 */
 
-int generateXRandomAddUpToY(size_t ammountOfNumbers, size_t addsUpTo, size_t *isStoredAt);
+int generateXRandomAddUpToY(size_t ammountOfNumbers, long long int addsUpTo, size_t *isStoredAt);

@@ -49,10 +49,8 @@ int main () {
                     generateXRandomAddUpToY(x, y, *&storage);
                     printf("Results:\n");
                     for (size_t i = 0; i < x; i++) {
-                        printf("------\n");
                         printf("%ld\n", storage[i]);
                     }
-                    printf("------\n");
                     printf("Insert R to redo, insert anything else to go back to main menu\n");
                     char op;
                     scanf("%c", &op);

@@ -9,10 +9,10 @@
     Extra: give a range from x to y that the generated numbers must match;
     01/27/2025
 
-    bro wtf this aint working
+    bro wtf this aint working (now it's working more but not fully)
 */
 
-int generateXRandomAddUpToY(size_t ammountOfNumbers, size_t addsUpTo, size_t *isStoredAt) {
+int generateXRandomAddUpToY(size_t ammountOfNumbers, long long int addsUpTo, size_t *isStoredAt) {
     static time_t whenCalled;
     if (whenCalled != time(NULL)) {
     srand(time(NULL));
@@ -30,33 +30,33 @@ int generateXRandomAddUpToY(size_t ammountOfNumbers, size_t addsUpTo, size_t *is
     for (size_t i = 0; i < ammountOfNumbers; i++) {
         sumup += numbers[i];
     }
-    size_t over = sumup / addsUpTo;
+    size_t over = (int)((int)sumup / (int)addsUpTo);
     // smaller
+    long long int overflow = sumup - addsUpTo;
     if (over == 0) {
-        long double remaining = addsUpTo - sumup;
+        long int remaining = addsUpTo - sumup;
         for (size_t i = 0; i < ammountOfNumbers; i++) {
             if (numbers[i] + remaining <= addsUpTo) {
                 numbers[i] += remaining;
-                i = ammountOfNumbers;
+                break;
             }
         }
     }
-    if (over >= 1) {
-        size_t overflow = sumup - addsUpTo;
-        short int easyWayOut = 0;
+    short int easyWayOut = 0;
+    if (over >= 1 && overflow != 0) {
         for (size_t i = 0; i < ammountOfNumbers; i++) {
-            long long int result = numbers[i] - overflow;
+            long long int result = numbers[i] - overflow; 
             if (result >= 0) {
                 numbers[i] -= overflow;
-                i = ammountOfNumbers;
                 easyWayOut = 1;
+                break;
             }
         }
         if (easyWayOut != 1) {
             size_t numbersPosition = 0;
             for (size_t i = 0; i < overflow; i++) {
                 if (numbersPosition == ammountOfNumbers) numbersPosition = 0;
-                long long int result = numbers[numbersPosition] - 1;//overflow divided by overflow
+                long long int result = numbers[numbersPosition] - 1; //overflow divided by overflow (wtf this comment means?)
                 if (result >= 0) {
                     numbers[numbersPosition] -= 1;
                 }

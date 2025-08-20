@@ -1,0 +1,1139 @@
+--- Math Tomfoolery ---
+V 1.0
+Author: Gabriel Hugi
+Choose the math topic
+1 - Random number generators
+Choose the operation
+1 - generate x random positive integer numbers that will add up to y
+Insert X
+Insert Y
+se
+result: 19
+numbers[i]: 113
+i: 0
+overflow: 94
+xe
+over : 1
+Results:
+------
+19
+------
+30
+------
+251
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: -138
+numbers[i]: 120
+i: 0
+overflow: 258
+result: -62
+numbers[i]: 196
+i: 1
+overflow: 258
+result: -16
+numbers[i]: 242
+i: 2
+overflow: 258
+ez
+over : 0
+Results:
+------
+34
+------
+110
+------
+156
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: 110
+numbers[i]: 268
+i: 0
+overflow: 158
+xe
+over : 1
+Results:
+------
+110
+------
+138
+------
+52
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: 15
+numbers[i]: 119
+i: 0
+overflow: 104
+xe
+over : 1
+Results:
+------
+15
+------
+241
+------
+44
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: 7
+numbers[i]: 26
+i: 0
+overflow: 19
+xe
+over : 1
+Results:
+------
+7
+------
+70
+------
+223
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: -4
+numbers[i]: 184
+i: 0
+overflow: 188
+result: -156
+numbers[i]: 32
+i: 1
+overflow: 188
+result: 84
+numbers[i]: 272
+i: 2
+overflow: 188
+xe
+over : 1
+Results:
+------
+184
+------
+32
+------
+84
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: -2
+numbers[i]: 9
+i: 0
+overflow: 11
+result: 139
+numbers[i]: 150
+i: 1
+overflow: 11
+xe
+over : 1
+Results:
+------
+9
+------
+139
+------
+152
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: 63
+numbers[i]: 281
+i: 0
+overflow: 218
+xe
+over : 1
+Results:
+------
+63
+------
+186
+------
+51
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: -220
+numbers[i]: 253
+i: 0
+overflow: 473
+result: -234
+numbers[i]: 239
+i: 1
+overflow: 473
+result: -192
+numbers[i]: 281
+i: 2
+overflow: 473
+ez
+over : 0
+Results:
+------
+95
+------
+81
+------
+124
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: 18
+numbers[i]: 288
+i: 0
+overflow: 270
+xe
+over : 1
+Results:
+------
+18
+------
+11
+------
+271
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: 134
+numbers[i]: 226
+i: 0
+overflow: 92
+xe
+over : 1
+Results:
+------
+134
+------
+60
+------
+106
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: -158
+numbers[i]: 122
+i: 0
+overflow: 280
+result: -76
+numbers[i]: 204
+i: 1
+overflow: 280
+result: -26
+numbers[i]: 254
+i: 2
+overflow: 280
+ez
+over : 0
+Results:
+------
+28
+------
+111
+------
+161
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: 142
+numbers[i]: 162
+i: 0
+overflow: 20
+xe
+over : 1
+Results:
+------
+142
+------
+5
+------
+153
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: -2
+numbers[i]: 157
+i: 0
+overflow: 159
+result: -142
+numbers[i]: 17
+i: 1
+overflow: 159
+result: 126
+numbers[i]: 285
+i: 2
+overflow: 159
+xe
+over : 1
+Results:
+------
+157
+------
+17
+------
+126
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: -98
+numbers[i]: 59
+i: 0
+overflow: 157
+result: 9
+numbers[i]: 166
+i: 1
+overflow: 157
+xe
+over : 1
+Results:
+------
+59
+------
+9
+------
+232
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: -130
+numbers[i]: 83
+i: 0
+overflow: 213
+result: 58
+numbers[i]: 271
+i: 1
+overflow: 213
+xe
+over : 1
+Results:
+------
+83
+------
+58
+------
+159
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: -80
+numbers[i]: 268
+i: 0
+overflow: 348
+result: -112
+numbers[i]: 236
+i: 1
+overflow: 348
+result: -204
+numbers[i]: 144
+i: 2
+overflow: 348
+ez
+over : 0
+Results:
+------
+152
+------
+120
+------
+28
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+e
+over : 0
+Results:
+------
+196
+------
+35
+------
+69
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: 96
+numbers[i]: 247
+i: 0
+overflow: 151
+xe
+over : 1
+Results:
+------
+96
+------
+72
+------
+132
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+e
+over : 0
+Results:
+------
+93
+------
+104
+------
+103
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: 119
+numbers[i]: 283
+i: 0
+overflow: 164
+xe
+over : 1
+Results:
+------
+119
+------
+76
+------
+105
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+e
+over : 0
+Results:
+------
+145
+------
+109
+------
+46
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: 15
+numbers[i]: 292
+i: 0
+overflow: 277
+xe
+over : 1
+Results:
+------
+15
+------
+219
+------
+66
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: -25
+numbers[i]: 221
+i: 0
+overflow: 246
+result: 37
+numbers[i]: 283
+i: 1
+overflow: 246
+xe
+over : 1
+Results:
+------
+221
+------
+37
+------
+42
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: -190
+numbers[i]: 199
+i: 0
+overflow: 389
+result: -166
+numbers[i]: 223
+i: 1
+overflow: 389
+result: -122
+numbers[i]: 267
+i: 2
+overflow: 389
+ez
+over : 0
+Results:
+------
+69
+------
+93
+------
+138
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: 45
+numbers[i]: 89
+i: 0
+overflow: 44
+xe
+over : 1
+Results:
+------
+45
+------
+24
+------
+231
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: -96
+numbers[i]: 190
+i: 0
+overflow: 286
+result: -107
+numbers[i]: 179
+i: 1
+overflow: 286
+result: -69
+numbers[i]: 217
+i: 2
+overflow: 286
+ez
+over : 0
+Results:
+------
+94
+------
+84
+------
+122
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: -2
+numbers[i]: 5
+i: 0
+overflow: 7
+result: 225
+numbers[i]: 232
+i: 1
+overflow: 7
+xe
+over : 1
+Results:
+------
+5
+------
+225
+------
+70
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: -16
+numbers[i]: 82
+i: 0
+overflow: 98
+result: 147
+numbers[i]: 245
+i: 1
+overflow: 98
+xe
+over : 1
+Results:
+------
+82
+------
+147
+------
+71
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: -183
+numbers[i]: 183
+i: 0
+overflow: 366
+result: -132
+numbers[i]: 234
+i: 1
+overflow: 366
+result: -117
+numbers[i]: 249
+i: 2
+overflow: 366
+ez
+over : 0
+Results:
+------
+61
+------
+112
+------
+127
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: 116
+numbers[i]: 146
+i: 0
+overflow: 30
+xe
+over : 1
+Results:
+------
+116
+------
+120
+------
+64
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: -50
+numbers[i]: 113
+i: 0
+overflow: 163
+result: 108
+numbers[i]: 271
+i: 1
+overflow: 163
+xe
+over : 1
+Results:
+------
+113
+------
+108
+------
+79
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+e
+over : 0
+Results:
+------
+251
+------
+17
+------
+32
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: 58
+numbers[i]: 106
+i: 0
+overflow: 48
+xe
+over : 1
+Results:
+------
+58
+------
+194
+------
+48
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: 12
+numbers[i]: 56
+i: 0
+overflow: 44
+xe
+over : 1
+Results:
+------
+12
+------
+239
+------
+49
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: 101
+numbers[i]: 173
+i: 0
+overflow: 72
+xe
+over : 1
+Results:
+------
+101
+------
+117
+------
+82
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: -36
+numbers[i]: 0
+i: 0
+overflow: 36
+result: 119
+numbers[i]: 155
+i: 1
+overflow: 36
+xe
+over : 1
+Results:
+------
+0
+------
+119
+------
+181
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: 1
+numbers[i]: 256
+i: 0
+overflow: 255
+xe
+over : 1
+Results:
+------
+1
+------
+71
+------
+228
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: -149
+numbers[i]: 293
+i: 0
+overflow: 442
+result: -153
+numbers[i]: 289
+i: 1
+overflow: 442
+result: -282
+numbers[i]: 160
+i: 2
+overflow: 442
+ez
+over : 0
+Results:
+------
+145
+------
+142
+------
+13
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: 80
+numbers[i]: 246
+i: 0
+overflow: 166
+xe
+over : 1
+Results:
+------
+80
+------
+110
+------
+110
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: -272
+numbers[i]: 180
+i: 0
+overflow: 452
+result: -161
+numbers[i]: 291
+i: 1
+overflow: 452
+result: -171
+numbers[i]: 281
+i: 2
+overflow: 452
+ez
+over : 0
+Results:
+------
+29
+------
+140
+------
+131
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: -31
+numbers[i]: 133
+i: 0
+overflow: 164
+result: 24
+numbers[i]: 188
+i: 1
+overflow: 164
+xe
+over : 1
+Results:
+------
+133
+------
+24
+------
+143
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: -8
+numbers[i]: 23
+i: 0
+overflow: 31
+result: 170
+numbers[i]: 201
+i: 1
+overflow: 31
+xe
+over : 1
+Results:
+------
+23
+------
+170
+------
+107
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: -183
+numbers[i]: 227
+i: 0
+overflow: 410
+result: -180
+numbers[i]: 230
+i: 1
+overflow: 410
+result: -157
+numbers[i]: 253
+i: 2
+overflow: 410
+ez
+over : 0
+Results:
+------
+90
+------
+93
+------
+117
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+e
+over : 0
+Results:
+------
+121
+------
+81
+------
+98
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+e
+over : 0
+Results:
+------
+153
+------
+80
+------
+67
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: 22
+numbers[i]: 214
+i: 0
+overflow: 192
+xe
+over : 1
+Results:
+------
+22
+------
+88
+------
+190
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+e
+over : 0
+Results:
+------
+104
+------
+153
+------
+43
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: 34
+numbers[i]: 211
+i: 0
+overflow: 177
+xe
+over : 1
+Results:
+------
+34
+------
+180
+------
+86
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+e
+over : 0
+Results:
+------
+116
+------
+40
+------
+144
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: 62
+numbers[i]: 292
+i: 0
+overflow: 230
+xe
+over : 1
+Results:
+------
+62
+------
+40
+------
+198
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: -26
+numbers[i]: 86
+i: 0
+overflow: 112
+result: 140
+numbers[i]: 252
+i: 1
+overflow: 112
+xe
+over : 1
+Results:
+------
+86
+------
+140
+------
+74
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: 14
+numbers[i]: 219
+i: 0
+overflow: 205
+xe
+over : 1
+Results:
+------
+14
+------
+13
+------
+273
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: -23
+numbers[i]: 253
+i: 0
+overflow: 276
+result: -234
+numbers[i]: 42
+i: 1
+overflow: 276
+result: 5
+numbers[i]: 281
+i: 2
+overflow: 276
+xe
+over : 1
+Results:
+------
+253
+------
+42
+------
+5
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: 81
+numbers[i]: 89
+i: 0
+overflow: 8
+xe
+over : 1
+Results:
+------
+81
+------
+159
+------
+60
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+se
+result: 57
+numbers[i]: 141
+i: 0
+overflow: 84
+xe
+over : 1
+Results:
+------
+57
+------
+175
+------
+68
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+e
+over : 0
+Results:
+------
+53
+------
+215
+------
+32
+------
+Insert R to redo, insert anything else to go back to main menu
+Insert X
+Insert Y
+s
