@@ -9,7 +9,7 @@
     Extra: give a range from x to y that the generated numbers must match;
     01/27/2025
 
-    bro wtf this aint working (now it's working more but not fully)
+    ey this is working vro
 */
 
 int generateXRandomAddUpToY(long long int ammountOfNumbers, long long int addsUpTo, long long int *isStoredAt) {
@@ -75,3 +75,9 @@ int generateXRandomAddUpToY(long long int ammountOfNumbers, long long int addsUp
 
     return 1;
 }
+
+/*
+    Proposal: 
+    Example: 
+    Extra: 
+*/
