@@ -38,19 +38,29 @@ int main () {
             // x positive ints that add up to y ----------
             if (operation == 1) {
                 for (int i = 0; i != -1;) {
-                    size_t x; size_t y;
+                    long long int x; long long int y;
                     printf("Insert X\n");
-                    scanf("%ld", &x);
+                    scanf("%lld", &x);
                     while (getchar() != '\n') {};
                     printf("Insert Y\n");
-                    scanf("%ld", &y);
+                    scanf("%lld", &y);
                     while (getchar() != '\n') {};
-                    size_t storage[x];
+                    long long int storage[x];
                     generateXRandomAddUpToY(x, y, *&storage);
                     printf("Results:\n");
-                    for (size_t i = 0; i < x; i++) {
-                        printf("%ld\n", storage[i]);
+                    for (long long int i = 0; i < x; i++) {
+                        printf("%lld\n", storage[i]);
                     }
+                    int negative = 0;
+                    long long int sumup = 0;
+                    for (long long int i = 0; i < x; i++) {
+                        sumup += storage[i];
+                        if (storage[i] < 0) negative = 1;
+                    }
+                    printf("--- Stats ---\n");
+                    printf("sum: %lld\n", sumup);
+                    printf("negative: %d\n", negative);
+                    
                     printf("Insert R to redo, insert anything else to go back to main menu\n");
                     char op;
                     scanf("%c", &op);

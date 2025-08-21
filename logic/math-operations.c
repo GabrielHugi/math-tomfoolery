@@ -12,30 +12,30 @@
     bro wtf this aint working (now it's working more but not fully)
 */
 
-int generateXRandomAddUpToY(size_t ammountOfNumbers, long long int addsUpTo, size_t *isStoredAt) {
+int generateXRandomAddUpToY(long long int ammountOfNumbers, long long int addsUpTo, long long int *isStoredAt) {
     static time_t whenCalled;
     if (whenCalled != time(NULL)) {
     srand(time(NULL));
     whenCalled = time(NULL);
     }
-    size_t numbers[ammountOfNumbers];
+    long long int *numbers = malloc(sizeof(long long int) * ammountOfNumbers);
     if (ammountOfNumbers == 1) {
         isStoredAt[0] = addsUpTo;
         return 1;
     }
-    for (size_t i = 0; i < ammountOfNumbers; i++) {
+    for (long long int i = 0; i < ammountOfNumbers; i++) {
         numbers[i] = rand() % (addsUpTo+1);
     }
-    size_t sumup = 0;
-    for (size_t i = 0; i < ammountOfNumbers; i++) {
+    long long int sumup = 0;
+    for (long long int i = 0; i < ammountOfNumbers; i++) {
         sumup += numbers[i];
     }
-    size_t over = (int)((int)sumup / (int)addsUpTo);
+    long long int over = (long long int)((long long int)sumup / (long long int)addsUpTo);
     // smaller
     long long int overflow = sumup - addsUpTo;
     if (over == 0) {
-        long int remaining = addsUpTo - sumup;
-        for (size_t i = 0; i < ammountOfNumbers; i++) {
+        long long int remaining = addsUpTo - sumup;
+        for (long long int i = 0; i < ammountOfNumbers; i++) {
             if (numbers[i] + remaining <= addsUpTo) {
                 numbers[i] += remaining;
                 break;
@@ -44,7 +44,7 @@ int generateXRandomAddUpToY(size_t ammountOfNumbers, long long int addsUpTo, siz
     }
     short int easyWayOut = 0;
     if (over >= 1 && overflow != 0) {
-        for (size_t i = 0; i < ammountOfNumbers; i++) {
+        for (long long int i = 0; i < ammountOfNumbers; i++) {
             long long int result = numbers[i] - overflow; 
             if (result >= 0) {
                 numbers[i] -= overflow;
@@ -53,22 +53,25 @@ int generateXRandomAddUpToY(size_t ammountOfNumbers, long long int addsUpTo, siz
             }
         }
         if (easyWayOut != 1) {
-            size_t numbersPosition = 0;
-            for (size_t i = 0; i < overflow; i++) {
+            long long int numbersPosition = 0;
+            while (overflow != 0) {
                 if (numbersPosition == ammountOfNumbers) numbersPosition = 0;
-                long long int result = numbers[numbersPosition] - 1; //overflow divided by overflow (wtf this comment means?)
-                if (result >= 0) {
-                    numbers[numbersPosition] -= 1;
+                long long int remove = rand() % (numbers[numbersPosition] + 1);
+                if (overflow - remove < 0) {
+                    remove = overflow;
                 }
-                else {
-                    i--;
-                }   
+                numbers[numbersPosition] -= remove;
+                overflow -= remove;
                 numbersPosition++;
             }
         }
     }
-    for (size_t i = 0; i < ammountOfNumbers; i++) {
+    for (long long int i = 0; i < ammountOfNumbers; i++) {
         isStoredAt[i] = numbers[i];
     }
+
+    // free shit
+    free(numbers);
+
     return 1;
 }
